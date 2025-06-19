@@ -1,0 +1,10 @@
+[package]
+name = "quote_api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+warp = "0.3"
+rand = "0.8"
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
